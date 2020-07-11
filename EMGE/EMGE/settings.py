@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '_%zd_=&wca-j5xvoq9t0o9e3qwtey2cpzpwuiecc97&9(-3ys@'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -127,5 +127,3 @@ STATICFILES_DIRS =[
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 
-LOGIN_REDIRECT_URL = '/h/'
-LOGOUT_REDIRECT_URL = ''
