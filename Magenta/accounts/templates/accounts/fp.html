@@ -133,9 +133,10 @@
 	<form  method="POST">
 		{% csrf_token %}
 
-		<div class="input-group" style="text-align: center;">
-			{{ form.Email}}
-            <!--<input type="Email" class="form-control" name="search" placeholder="Email address"/>-->
+    <div class="input-group" style="text-align: center;">
+      {{form}}
+			<!--{{ form.Email}}
+            <input type="Email" class="form-control" name="search" placeholder="Email address"/>-->
 			<button class = "btn btn-success" style="background-color: #33b288; width:">Submit</button>
         </div>
     </form>
